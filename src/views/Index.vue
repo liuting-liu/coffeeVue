@@ -17,11 +17,12 @@
 			<h1>泰摩手冲咖啡萃取体系四大核心</h1>
 			<ul class="u1">
 				<li>
+					<!-- <router-link to="./Modouji.vue"><p class="mo"></p></router-link> -->
 					<p class="mo">
-					</p>
 					<div>{{list.name}}</div>
 				</li>
 				<li>
+					<!-- <router-link to="/Shouchonghu.vue"><p class="hu"></p></router-link> -->
 					<p class="hu"></p>
 					<div >{{list.name}}</div>
 				</li>

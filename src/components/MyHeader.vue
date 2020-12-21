@@ -1,6 +1,6 @@
 <template>
 <div>
-	<div class="d1">
+	<div class="div1">
 		<!-- 左侧图片  -->
 		<div><img class="my_img" src="https://www.timemore.com/wp-content/uploads/2019/12/timemore-43.png" alt=""></div>
 		<!-- 右侧ul文本 -->
@@ -25,9 +25,8 @@
 						</ul>
 
 						<h6>其他器具产品</h6>
-						<br>
-						<br>
-						<hr>
+						<!-- <br> -->
+						<hr class="hr">
 						<ul class="u2">
 							<li>锤目杯壶</li>
 							<li>小U法压壶</li>
@@ -95,7 +94,7 @@
 	padding: 0;
 	margin: 0;
 }
-.d1{
+.div1{
 	width: 100%;height: 80px;
 	background-color: #202020;
 	padding: 0px 20px; 
@@ -103,11 +102,11 @@
 	justify-content: space-between;
 	text-align: center;align-items: center;
 }
-.d1>div:first-child{margin-left: 70px;}
+.div1>div:first-child{margin-left: 70px;}
 
 li {padding: 0px 20px;text-decoration: none}
-.d1>div:nth-child(2) a{color: white;text-decoration: none} 
-.d1>div:nth-child(2) a:hover{
+.div1>div:nth-child(2) a{color: white;text-decoration: none} 
+.div1>div:nth-child(2) a:hover{
 	color: #c7b083;
 	text-decoration: none;
 	display: block;
@@ -121,14 +120,20 @@ li {padding: 0px 20px;text-decoration: none}
 	margin: 0 auto;
 	display: none;
 }
+.div>.u1{
+	  margin-top: 40px;
+}
+.div>.hr{
+	  margin-top: 30px;
+}
 .div>h6{
-    margin-top: 50px;color: #fff;
+    margin-top: 30px;color: #fff;
 }
 .div>ul{
 	list-style: none;
     display: flex;justify-content: space-around;
     color: #fff;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .div>ul>li>p{
@@ -186,7 +191,7 @@ hr{
     border-color: #2a2a2a;
 	 display: block;
 	 position: absolute;
-	margin: 80px -400px;
+	margin: 0 -400px;
 }
 .u2,.u3{
 	font-size: 16px;
